@@ -10,3 +10,5 @@ console.log(d.toDateString());
 let tmstamp=Date.now();
 console.log(tmstamp);
 console.log(d1.getTime());
+
+
