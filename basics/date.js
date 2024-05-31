@@ -4,6 +4,7 @@ console.log(d.toDateString());
 console.log(d.toLocaleString());
 console.log(typeof d);
 
+
 let d1=new Date(2024,0,23);
 console.log(d.toDateString());
 let tmstamp=Date.now();
