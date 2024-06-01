@@ -85,7 +85,7 @@ const object={
   }
 }
 object.f()
-*/
+
 
 const p=function(){
    let n="cccc"
@@ -103,5 +103,19 @@ const p1=()=>{
  p1()
  
 
- const l=(n1,n2)=> (n1+n2);//implicit 
- console.log(l(9,9))
+ //const l=(n1,n2)=> (n1+n2);//implicit 
+ //console.log(l(9,9))
+
+*/
+
+ //immediate invoked function
+ //global scope ki pollution ki wajah se,global variables and all ki pollution ko clear karne ke liye we use iif
+ (function ts(){
+        console.log(`hello`);
+    })();//to end this we use ;
+
+ (
+    (nm)=>{
+        console.log(`hoooo ${nm}`);
+    }
+ )('cherry');

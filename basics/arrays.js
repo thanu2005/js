@@ -14,13 +14,13 @@ console.log(arr);
 console.log(arr.includes(10));//if present true else false
 console.log(arr.indexOf(100));//if ele not present -1 else index of tht ele
 console.log(typeof arr);//object
-
+*/
 
 
 let myarray=arr.join()
 console.log(myarray);//converts to string
 console.log(typeof myarray);//string
-*/
+
 
 console.log(arr.slice(1,3));
 console.log(arr);//no change in array after using slice
