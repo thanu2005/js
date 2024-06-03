@@ -48,3 +48,75 @@ for(i=0;i<=10;i++){
     }
     console.log(`I am ${i}`)//continue skips this stmt only for 5
 }
+
+
+let arr=[1,2,3,4,5,6,7]
+for(const i of arr){
+    console.log(i);
+}
+
+
+let a="hello-wel-to-js"
+for(const i of a){
+    console.log(i);
+}
+
+
+//maps
+const m=new Map()
+m.set('a',100)
+m.set('b',200)
+m.set('c',300)
+for(const n of m){
+console.log(n)}
+
+
+const m1=new Map()
+m1.set('a',100)
+m1.set('b',200)
+m1.set('c',300)
+for(const [key,value] of m1){
+console.log(key,':',value)
+}
+
+const myob={
+    js:"javascript",
+    cpp:"C++",
+    rb:"ruby"
+}
+for(const key in myob){
+    console.log(`${key} is shortcut for ${myob[key]}`)
+}
+
+const mo=["bb","cc","dd","ee"]
+mo.forEach(function(val){
+console.log(val);
+})
+
+const w=[1,2,3,4,"ji"]
+w.forEach((item)=>{
+    console.log(item);  
+})
+
+
+
+//[{}{}{}]
+const p=[
+    {
+        nm:"Js",
+        no:1
+    },{
+        nm:"CSS",
+        no:2
+    },{
+        nm:"C++",
+        no:3
+    }
+]
+p.forEach((item)=>{
+    console.log(item.nm);
+})
+
+p.forEach(function(item){
+    console.log(item.no)
+})
