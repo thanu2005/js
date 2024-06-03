@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black;color: white;;">
+    <ul class="language">
+        <li>JS</li>
+
+    </ul>
+</body>
+<script>
+    function addLang(nm){
+        const li=document.createElement('li');
+        li.innerHTML=(`${nm}`)//need to traverse complete tree every time
+        document.querySelector('.language').appendChild(li)
+    }
+    addLang("Python")
+   
+//-------------------------------------best approach------------------------------------------------
+    function addOpLan(nm){
+        const li=document.createElement('li')
+        const a=document.createTextNode(nm)
+        li.appendChild(a)
+        document.querySelector('.language').appendChild(li)
+    }
+    addOpLan("CSS")
+
+    //edit------------------
+    const a=document.querySelector('li:nth-child(2)')
+    const newli=document.createElement('li')
+    newli.textContent="javaa"
+    a.replaceWith(newli)
+    
+//----------------------or-----------
+const b=document.querySelector('li:first-child')
+b.outerHTML='<li>C</li>'
+
+
+//---------to delete--------------
+const c=document.querySelector('li:last-child')
+c.remove()
+</script>
+</html>
