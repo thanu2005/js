@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    display: block;
+}
+.colors{
+margin: 100px auto 100px;
+width: 80%;
+text-align: center;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+ #pink{
+background: rgb(172, 19, 106);
+}
+#yellow{
+    background:yellow ;
+}
+#blue{
+    background: rgb(11, 56, 129);
+}
+#skyblue{
+    background: skyblue;
+}
