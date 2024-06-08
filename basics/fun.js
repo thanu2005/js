@@ -1,4 +1,4 @@
-/*
+
 const f=function(n1,n2)//parameters
 {
 return n1+n2
@@ -62,7 +62,7 @@ ff1()
 /******************** 
 concept is tht child can take ice cream from parent but parent cannot take it from the child
 here ff1 is parent and f2 is child
-
+*/
 
 console.log(w(10))
 function w(n){
@@ -100,13 +100,13 @@ const p1=()=>{
      console.log(`${this.n}`);
      console.log(this);
  }
- p1()
+// p1()
  
 
  //const l=(n1,n2)=> (n1+n2);//implicit 
  //console.log(l(9,9))
 
-*/
+
 
  //immediate invoked function
  //global scope ki pollution ki wajah se,global variables and all ki pollution ko clear karne ke liye we use iif

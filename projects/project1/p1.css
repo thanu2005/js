@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 3005px;
+    height: 825px;
+    background-color: gainsboro;
+    padding: 30px;
+}
+#height,#weight{
+width: 100px;
+height: 15px;
+margin-top: 30px;
+}
+#weight-guide{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#results{
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(83, 10, 10);
+   
+}
+button{
+    width: 100px;
+    height: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 1px,30px;
+    color: black;
+    border:2px solid black;
+}
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+}
